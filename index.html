@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Coinview</title>
+  </head>
+
+  <body>
+    <h1>Trades</h1>
+
+    <div id="trades"></div>
+
+    <script>
+      // Create WebSocket connection.
+      const socket = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@trade');
+      console.log(socket);
+      
+      var tradeDiv = document.getElementById('trades');
+
+      // Listen for messages
+      socket.addEventListener('message', function (event) {
+        console.log('Message from server ', event.data);
+
+        var messageObject = JSON.parse(event.data);
+
+        tradeDiv.append(messageObject.p);
+      });
+    </script>
+  </body> 
+</html>
+
