@@ -1,14 +1,3 @@
-Part Time Larryi
-Binance API Tutorial (Part 1) - Crypto Trading Bot Design
-https://www.youtube.com/watch?v=rvhnz1yBHgQ
-
-https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md
-wss://stream.binance.com:9443
-wss://stream.binance.com:9443/ws/btcusdt@trade
-
-https://www.unixtimestamp.com/
-
-
 ## Binance Part 1 - Websockets and Real-Time LightWeight Charts
 
 * What is binance and how does it compare to other exchanges?
@@ -43,8 +32,57 @@ https://www.unixtimestamp.com/
 * Add stuff to UI
 
 
-TradingView library Lightweight-Charts
-https://www.tradingview.com/lightweight-charts/
+
+
+
+
+By
+Part Time Larry
+
+
+
+
+
+
+
+Binance API Tutorial (Part 1) - Crypto Trading Bot Design
+
+
+https://www.youtube.com/watch?v=rvhnz1yBHgQ
+
+https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md
+
+wss://stream.binance.com:9443
+wss://stream.binance.com:9443/ws/btcusdt@trade
+
+https://www.unixtimestamp.com/
 
 Offcial docs for binance APIS and Streams
 https://github.com/binance/binance-spot-api-docs 
+
+
+
+Binance API Tutorial (Part 3) - Candelstick Chart UI with Lightweight Charts
+
+TradingView library Lightweight-Charts
+https://www.tradingview.com/lightweight-charts/
+
+https://github.com/tradingview/lightweight-charts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

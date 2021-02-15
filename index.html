@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Coinview</title>
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
   </head>
 
   <body>
@@ -10,20 +11,22 @@
 
     <script>
       // Create WebSocket connection.
-      const socket = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@trade');
-      console.log(socket);
+      //const socket = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@trade');
+      //console.log(socket);
       
-      var tradeDiv = document.getElementById('trades');
+      const tradeDiv = document.getElementById('trades');
 
       // Listen for messages
-      socket.addEventListener('message', function (event) {
+      /*socket.addEventListener('message', event => {
         console.log('Message from server ', event.data);
 
-        var messageObject = JSON.parse(event.data);
+        const messageObject = JSON.parse(event.data);
 
         tradeDiv.append(messageObject.p);
       });
+      */
     </script>
+    <script src="chart.js"></script>
   </body> 
 </html>
 
