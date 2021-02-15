@@ -6,8 +6,19 @@
 
   <body>
     <h1>Trades</h1>
-
+    
+    <div id="charts"></div>
+    
     <div id="trades"></div>
+
+    <h3>Settings</h3>
+
+    <div id="settings">
+        <input type="checkbox" /><label>RSI</label>
+        <input type="text" id="rsi_length" name="rsi_length" placeholder="14"/><label>Overbought</label>
+        <input type="text" id="rsi_overbought" name="rsi_overbought" placeholder="70" /><label>Oversold</label>
+        <input type="text" id="rsi_oversold" name="resi_oversold" placeholder="38"/>
+    </div>
 
     <script>
       // Create WebSocket connection.
